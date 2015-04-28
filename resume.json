@@ -2,11 +2,11 @@
   "basics": {
     "name": "Jean-Charles FAUVIN",
     "label": "Developer front end",
-    "picture": "",
+    "picture": "https://avatars2.githubusercontent.com/u/11909355?v=3&s=460",
     "email": "jeancharles.fauvin@gmail.com",
     "phone": "06-88-89-54-09",
-    "website": "https://github.com/byJC",
-    "summary": "Hello, my name is Jean-Charles and I am currently looking for a job in Paris",
+    "website": "",
+    "summary": "Hello, my name is Jean-Charles and I am currently looking for a job in Paris. During the last 2 years, I specialized in the realisation of web and mobiles applications using the web's standards : HTML / CSS / JS.",
     "location": {
       "address": "8 Rue Saint-Léon",
       "postalCode": "31400",
@@ -14,20 +14,87 @@
       "countryCode": "FR",
       "region": ""
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "Jean-Charles FAUVIN",
+        "url": "https://fr.linkedin.com/pub/jean-charles-fauvin/51/5a2/266"
+      },
+      {
+        "network": "github",
+        "username": "ByJC",
+        "url": "https://github.com/byJC"
+      }
+    ]
   },
   "work": [
     {
       "company": "Astek SO",
       "position": "Developer Front End ",
       "website": "http://www.groupeastek.com/",
-      "startDate": "2014-02",
-      "endDate": "Now",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "startDate": "2014-01-06",
+      "endDate": "2015-06-15",
+      "summary": "Astek is a software and computing services company and my current employer. I worked for two clients : Thales Avionics and LivingObjects",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Thales Avionics : Creating severals mobiles applications with Cordova and AngularJS",
+        "Living Objects : Creating a platform to analyse the network performance with AngularJS."
+      ]
+    },
+    {
+      "company": "Living Objects",
+      "position": "Developer Front End",
+      "website": "http://www.livingobjects.com/",
+      "startDate": "2015-03-03",
+      "endDate": "2015-06-15",
+      "summary": "Creating a Network Managment System , create Charts and tools to analyse all the data and make a differenciator.The client side use AngularJS with API Rest",
+      "highlights": [
+        "Languages : AngularJS, Flex, SASS, Material Design, D3.js, Highcharts.js, Gulp, webpack, docker, Jenkins for the continious integration."
+      ]
+    },
+    {
+      "company": "Thales Avionics ",
+      "position": "Developer Front End ",
+      "website": "https://www.thalesgroup.com/fr",
+      "startDate": "2014-02-03",
+      "endDate": "2015-02-15",
+      "summary": "Using HTML, CSS, JS to generate Mobiles applications for Android , iOS, and Windows 8.1.",
+      "highlights": [
+        "ePOTS : Shutter PITO detection probes. Creation of the interface responsive to process and analyze the status of the probe : Android target. Using angularjs , Grunt , Bower, BootStrap , Cordova .",
+        "eLogbook : Booklet of usindigital aircraft flight , HMI responsive to track the route of the aircraft and its crew members . Android and W8 target. Using: angularjs , Grunt , Bower, Bootstrap , Cordova , WS REST",
+        "Socrates : WEB Client for editing configuration of an aircraft. Appeal to WS REST . Using: angularjs , Grunt , Bower, Bootstrap , WS Rest"
+      ]
+    },
+    {
+      "company": "Lagoon software",
+      "position": "Web Developer - Intership",
+      "website": "http://www.lagoon-soft.com/",
+      "startDate": "2013-03-04",
+      "endDate": "2013-09-05",
+      "summary": "Creating & Developping an advertising platform which delivers video then integrate the platform on various online video games.",
+      "highlights": [
+        "languages : PHP, jQuery, MySQL, HTML, CSS, Flash"
+      ]
+    },
+    {
+      "company": "Optimum CIT",
+      "position": "Developper - Intership",
+      "website": "http://www.optimumcit.com/",
+      "startDate": "2012-06-05",
+      "endDate": "2012-09-31",
+      "summary": "Upgrading & Developping an ERP (Entreprise Resource Planning) for opticians.",
+      "highlights": [
+        "languages : Basic Object language and Access 2010"
+      ]
+    },
+    {
+      "company": "Imagine Cup 2012 Microsoft",
+      "position": "Developer & Lead project",
+      "website": "https://www.imaginecup.com/",
+      "startDate": "2011-09-03",
+      "endDate": "2012-05-24",
+      "summary": "Developing a software and a mobile application that help the user to choose the right medication according to their symptoms for the Microsoft's Competition..",
+      "highlights": [
+        "Languages :  C#, XAML."
       ]
     }
   ],
@@ -37,14 +104,15 @@
       "institution": "Institut de l'électronique et du numérique (Toulon, FRANCE)",
       "area": "Multimedia Informatic System Network",
       "studyType": "Engineer",
-      "startDate": "2007-09",
-      "endDate": "2013-09",
+      "startDate": "2007-09-03",
+      "endDate": "2013-09-26",
       "gpa": "",
       "courses": [
         "Programming : C (Algorithmics and Image Processing)",
         "Object-Oriented Programming : JAVA, C++, C#",
         "Database : MySQL, PostgreSQL",
-        "Network"
+        "Network",
+        "Web Development: HTML, CSS, JS"
       ]
     }
   ],
@@ -58,6 +126,7 @@
         "AngularJS",
         "HTML5",
         "CSS3 (SASS/LESS)",
+        "Jquery",
         "Javascript",
         "Grunt / Gulp",
         "Cordova / Phonegap",
