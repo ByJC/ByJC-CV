@@ -1,0 +1,126 @@
+{
+  "basics": {
+    "name": "Jean-Charles FAUVIN",
+    "label": "Developer front end",
+    "picture": "",
+    "email": "jeancharles.fauvin@gmail.com",
+    "phone": "06-88-89-54-09",
+    "website": "https://github.com/byJC",
+    "summary": "Hello, my name is Jean-Charles and I am currently looking for a job in Paris",
+    "location": {
+      "address": "8 Rue Saint-Léon",
+      "postalCode": "31400",
+      "city": "Toulouse",
+      "countryCode": "FR",
+      "region": ""
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Astek SO",
+      "position": "Developer Front End ",
+      "website": "http://www.groupeastek.com/",
+      "startDate": "2014-02",
+      "endDate": "Now",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Institut de l'électronique et du numérique (Toulon, FRANCE)",
+      "area": "Multimedia Informatic System Network",
+      "studyType": "Engineer",
+      "startDate": "2007-09",
+      "endDate": "2013-09",
+      "gpa": "",
+      "courses": [
+        "Programming : C (Algorithmics and Image Processing)",
+        "Object-Oriented Programming : JAVA, C++, C#",
+        "Database : MySQL, PostgreSQL",
+        "Network"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Experienced",
+      "keywords": [
+        "AngularJS",
+        "HTML5",
+        "CSS3 (SASS/LESS)",
+        "Javascript",
+        "Grunt / Gulp",
+        "Cordova / Phonegap",
+        "Continious Integration",
+        "API Rest",
+        "Soap",
+        "Ionic"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": [
+        "Atom.io",
+        "Brackets",
+        "Docker",
+        "Jenkins",
+        "Webpack",
+        "GIT",
+        "SVN",
+        "Linux",
+        ""
+      ]
+    },
+    {
+      "name": "libraries",
+      "level": "",
+      "keywords": [
+        "d3.js",
+        "highcharts.js",
+        "angular-material",
+        "bootstrap.js",
+        "angular-gridster"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "TOIEC 895"
+    },
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Trumpet"
+      ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Squash",
+        "Tennis",
+        "Golf",
+        "Diving",
+        "Soccer"
+      ]
+    }
+  ],
+  "references": []
+}
