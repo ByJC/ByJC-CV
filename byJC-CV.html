@@ -1,212 +1,563 @@
-<!DOCTYPE html>
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Jean-Charles FAUVIN</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
 
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="not-ie" lang="en">
-<!--<![endif]-->
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-        <meta name="description" content="Jean-Charles FAUVIN's resume" />
-        <meta name="keywords" content="Jean-Charles FAUVIN"/>
-        <title>Jean-Charles FAUVIN &bull; jeancharles.fauvin@gmail.com &bull; 06-88-89-54-09</title>
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Jean-Charles FAUVIN
+					</h1>
+					<h2>
+						Developer front end
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
 
-        <!-- style sheets-->
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet" type="text/css">
-        <link href="//rawgit.com/beardtree/jsonresume-theme-timeline-beardtree/master/bower_components/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="//rawgit.com/beardtree/jsonresume-theme-timeline-beardtree/master/build/css/index.css" rel="stylesheet" type="text/css">
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="355f50545b565d54475950461b535440435c5b755258545c591b565a58">[email&#160;protected]</a><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">06-88-89-54-09</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href=""></a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Hello, my name is Jean-Charles and I am currently looking for a job in Paris. During the last 2 years, I specialized in the realisation of web and mobiles applications using the web&#x27;s standards : HTML / CSS / JS.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						linkedin
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://fr.linkedin.com/pub/jean-charles-fauvin/51/5a2/266">Jean-Charles FAUVIN</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/byJC">ByJC</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-        <!-- scripts-->
-        <script data-main="//rawgit.com/beardtree/jsonresume-theme-timeline-beardtree/master/js/index" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"></script>
-    </head>
-    <body>
-        <!-- Top icons -->
-        <div class="top-icons hidden-xs hidden-sm hidden-print">
-            <a class="top-menu" data-toggle="tooltip" data-placement="top" title="Menu toggle"><span class="glyphicon glyphicon-th-list"></span></a>
-            <a href="index.pdf" class="top-download-resume" data-toggle="tooltip" data-placement="top" title="Download resume" target="_blank"><span class="glyphicon glyphicon-cloud-download"></span></a>
-            <a href="#" class="top-print" data-toggle="tooltip" data-placement="top" title="Print resume"><span class="glyphicon glyphicon-print"></span></a>
-        </div>
-        <!-- end Top icons -->
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Astek SO</span>
+					<span class="date">
+						2014-01-06 — 2015-06-15
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.groupeastek.com/">http://www.groupeastek.com/</a>
+				</div>
+				<div class="position">
+					Developer Front End 
+				</div>
+				<div class="summary">
+					<p>Astek is a software and computing services company and my current employer. I worked for two clients : Thales Avionics and LivingObjects</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Thales Avionics : Creating severals mobiles applications with Cordova and AngularJS</li>
+					<li class="bullet">Living Objects : Creating a platform to analyse the network performance with AngularJS.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Living Objects</span>
+					<span class="date">
+						2015-03-03 — 2015-06-15
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.livingobjects.com/">http://www.livingobjects.com/</a>
+				</div>
+				<div class="position">
+					Developer Front End
+				</div>
+				<div class="summary">
+					<p>Creating a Network Managment System , create Charts and tools to analyse all the data and make a differenciator.The client side use AngularJS with API Rest</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Languages : AngularJS, Flex, SASS, Material Design, D3.js, Highcharts.js, Gulp, webpack, docker, Jenkins for the continious integration.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Thales Avionics </span>
+					<span class="date">
+						2014-02-03 — 2015-02-15
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.thalesgroup.com/fr">https://www.thalesgroup.com/fr</a>
+				</div>
+				<div class="position">
+					Developer Front End 
+				</div>
+				<div class="summary">
+					<p>Using HTML, CSS, JS to generate Mobiles applications for Android , iOS, and Windows 8.1.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">ePOTS : Shutter PITO detection probes. Creation of the interface responsive to process and analyze the status of the probe : Android target. Using angularjs , Grunt , Bower, BootStrap , Cordova .</li>
+					<li class="bullet">eLogbook : Booklet of usindigital aircraft flight , HMI responsive to track the route of the aircraft and its crew members . Android and W8 target. Using: angularjs , Grunt , Bower, Bootstrap , Cordova , WS REST</li>
+					<li class="bullet">Socrates : WEB Client for editing configuration of an aircraft. Appeal to WS REST . Using: angularjs , Grunt , Bower, Bootstrap , WS Rest</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Lagoon software</span>
+					<span class="date">
+						2013-03-04 — 2013-09-05
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.lagoon-soft.com/">http://www.lagoon-soft.com/</a>
+				</div>
+				<div class="position">
+					Web Developer - Intership
+				</div>
+				<div class="summary">
+					<p>Creating &amp; Developping an advertising platform which delivers video then integrate the platform on various online video games.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">languages : PHP, jQuery, MySQL, HTML, CSS, Flash</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Optimum CIT</span>
+					<span class="date">
+						2012-06-05 — 2012-09-31
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.optimumcit.com/">http://www.optimumcit.com/</a>
+				</div>
+				<div class="position">
+					Developper - Intership
+				</div>
+				<div class="summary">
+					<p>Upgrading &amp; Developping an ERP (Entreprise Resource Planning) for opticians.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">languages : Basic Object language and Access 2010</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Imagine Cup 2012 Microsoft</span>
+					<span class="date">
+						2011-09-03 — 2012-05-24
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.imaginecup.com/">https://www.imaginecup.com/</a>
+				</div>
+				<div class="position">
+					Developer &amp; Lead project
+				</div>
+				<div class="summary">
+					<p>Developing a software and a mobile application that help the user to choose the right medication according to their symptoms for the Microsoft&#x27;s Competition..</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Languages :  C#, XAML.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
 
-        <!-- Navigation -->
-        <nav id="spy" class="spy hidden-sm hidden-xs hidden-print">
-            <ul>
-                <li class="active"><a href="#work-experience">Work experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#interests">Interests</a></li>
-                <li><a href="#languages">Languages</a></li>
-            </ul>
-        </nav>
-        <!-- end Navigation -->
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Institut de l&#x27;électronique et du numérique (Toulon, FRANCE)</span>
+					<span class="date">
+						2007-09-03 — 2013-09-26
+					</span>
+				</h4>
+				<div class="area">
+					Multimedia Informatic System Network
+				</div>
+				<div class="studyType">
+					Engineer
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Programming : C (Algorithmics and Image Processing)</li>
+					<li>Object-Oriented Programming : JAVA, C++, C#</li>
+					<li>Database : MySQL, PostgreSQL</li>
+					<li>Network</li>
+					<li>Web Development: HTML, CSS, JS</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>AngularJS</li>
+					<li>HTML5</li>
+					<li>CSS3 (SASS/LESS)</li>
+					<li>Jquery</li>
+					<li>Javascript</li>
+					<li>Grunt / Gulp</li>
+					<li>Cordova / Phonegap</li>
+					<li>Continious Integration</li>
+					<li>API Rest</li>
+					<li>Soap</li>
+					<li>Ionic</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Tools</h4>
+				</div>
+				<ul class="keywords">
+					<li>Atom.io</li>
+					<li>Brackets</li>
+					<li>Docker</li>
+					<li>Jenkins</li>
+					<li>Webpack</li>
+					<li>GIT</li>
+					<li>SVN</li>
+					<li>Linux</li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>libraries</h4>
+				</div>
+				<ul class="keywords">
+					<li>d3.js</li>
+					<li>highcharts.js</li>
+					<li>angular-material</li>
+					<li>bootstrap.js</li>
+					<li>angular-gridster</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
 
-        <!-- Navigation for small devices -->
-        <nav id="mini-nav" class="spy visible-sm visible-xs hidden-print">
-            <ul>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown">Menu</a>
-                    <ul class="dropdown-menu">
-                        <li class="active"><a href="#work-experience">Work experience</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#interests">Interests</a></li>
-                        <li><a href="#languages">Languages</a></li>
-                    </ul>
-                </li>
-              </ul>
-        </nav>
-        <!-- end Navigation for small devices -->
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					TOIEC 895
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>French</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
 
-        <div id="resume" class="container">
-            <header id="header" class="hidden-print">
-                <div class="row">
-                    <div class="header-content col-sm-8 col-sm-offset-2 text-center">
-                        <img src="http:&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;8154ed2cbbfdf8c08556eb2426839dbf?s=200&amp;r=pg&amp;d=mm" class="face hidden-print" alt="A picture of me">
-                        <hr class="empty">
-                        <p class="header-name">Jean-Charles FAUVIN</p>
-                        <p class="header-subtitle">Hello, my name is Jean-Charles and I am currently looking for a job in Paris</p>
-                        <p><a href="/cdn-cgi/l/email-protection#6e040b0f000d060f1c020b1d40080f1b1807002e09030f0702400d0103" target="_blank"><span class="__cf_email__" data-cfemail="731916121d101b12011f16005d151206051a1d33141e121a1f5d101c1e">[email&#160;protected]</span><script cf-hash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a> &bull; 06-88-89-54-09 &bull; <a href="https:&#x2F;&#x2F;github.com&#x2F;byJC" target="_blank">https:&#x2F;&#x2F;github.com&#x2F;byJC</a></p>
-                        <p class="header-profiles hidden-print">
-                        </p>
-                    </div>
-                </div>
-            </header>
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Music</h4>
+				</div>
+				<ul class="keywords">
+					<li>Trumpet</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Sports</h4>
+				</div>
+				<ul class="keywords">
+					<li>Squash</li>
+					<li>Tennis</li>
+					<li>Golf</li>
+					<li>Diving</li>
+					<li>Soccer</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
 
-            <section id="work-experience" class="work-experience section row">
-                <div class="col-sm-7 col-sm-offset-5">
-                    <ul>
-                        <li class="title"><span class="glyphicon glyphicon-briefcase"></span>Work experience</li>
-                        <li>
-                            <span class="note">February 2014 - June 2015</span>
-                            <p><strong>Developer Front End </strong> at <strong><a href="http:&#x2F;&#x2F;www.groupeastek.com&#x2F;" target="_blank">Astek SO</a></strong></p>
-                            <p class="description">Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.</p>
-                            <ul>
-                                <li>Build an algorithm for artist to detect if their music was violating copy right infringement laws</li>
-                                <li>Successfully won Techcrunch Disrupt</li>
-                                <li>Optimized an algorithm that holds the current world record for Weisman Scores</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <section id="education" class="education section row">
-                <div class="col-sm-7 col-sm-offset-5">
-                    <ul>
-                        <li class="title"><span class="glyphicon glyphicon-book"></span>Education</li>
-                        <li>
-                            <span class="note has-annotation">September 2007 - September 2013</span>
-                            <p><strong>Engineer</strong> at <strong><a href="" target="_blank">Institut de l&#39;électronique et du numérique (Toulon, FRANCE)</a></strong></p>
-                            <p class="description">Multimedia Informatic System Network</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-
-
-            <section id="skills" class="skills section row">
-                <div class="col-sm-7 col-sm-offset-5">
-                    <ul>
-                        <li class="title"><span class="glyphicon glyphicon-tasks"></span>Skills</li>
-                        <li>
-                            <p><strong class="has-annotation">Web Development</strong> <span class="annotation">Experienced</span></p>
-                            <p class="keywords">
-                                <span class="label label-default">AngularJS</span>
-                                <span class="label label-default">HTML5</span>
-                                <span class="label label-default">CSS3 (SASS&#x2F;LESS)</span>
-                                <span class="label label-default">Javascript</span>
-                                <span class="label label-default">Grunt &#x2F; Gulp</span>
-                                <span class="label label-default">Cordova &#x2F; Phonegap</span>
-                                <span class="label label-default">Continious Integration</span>
-                                <span class="label label-default">API Rest</span>
-                                <span class="label label-default">Soap</span>
-                                <span class="label label-default">Ionic</span>
-                            </p>
-                        </li>
-                        <li>
-                            <p><strong class="has-annotation">Tools</strong> <span class="annotation"></span></p>
-                            <p class="keywords">
-                                <span class="label label-default">Atom.io</span>
-                                <span class="label label-default">Brackets</span>
-                                <span class="label label-default">Docker</span>
-                                <span class="label label-default">Jenkins</span>
-                                <span class="label label-default">Webpack</span>
-                                <span class="label label-default">GIT</span>
-                                <span class="label label-default">SVN</span>
-                                <span class="label label-default">Linux</span>
-                                <span class="label label-default"></span>
-                            </p>
-                        </li>
-                        <li>
-                            <p><strong class="has-annotation">libraries</strong> <span class="annotation"></span></p>
-                            <p class="keywords">
-                                <span class="label label-default">d3.js</span>
-                                <span class="label label-default">highcharts.js</span>
-                                <span class="label label-default">angular-material</span>
-                                <span class="label label-default">bootstrap.js</span>
-                                <span class="label label-default">angular-gridster</span>
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <section id="interests" class="interests section row">
-                <div class="col-sm-7 col-sm-offset-5">
-                    <ul>
-                        <li class="title"><span class="glyphicon glyphicon-heart-empty"></span>Interests</li>
-                        <li>
-                            <p><strong class="has-annotation">Music</strong></p>
-                            <p class="keywords">
-                                <span class="label label-default">Trumpet</span>
-                            </p>
-                        </li>
-                        <li>
-                            <p><strong class="has-annotation">Sports</strong></p>
-                            <p class="keywords">
-                                <span class="label label-default">Squash</span>
-                                <span class="label label-default">Tennis</span>
-                                <span class="label label-default">Golf</span>
-                                <span class="label label-default">Diving</span>
-                                <span class="label label-default">Soccer</span>
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <section id="languages" class="languages section row">
-                <div class="col-sm-7 col-sm-offset-5">
-                    <ul>
-                        <li class="title"><span class="glyphicon glyphicon-globe"></span>Languages</li>
-                        <li>
-                            <p><strong class="has-annotation">English</strong> <span class="annotation">TOIEC 895</span></p>
-                        </li>
-                        <li>
-                            <p><strong class="has-annotation">French</strong> <span class="annotation">Native speaker</span></p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-
-            <section class="up section row hidden-print">
-                <div class="col-sm-7 col-sm-offset-5">
-                    <ul>
-                        <li class="title"><span class="glyphicon glyphicon-arrow-up"></span>Up</li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-    <script type="text/javascript">
-/* <![CDATA[ */
-(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
-/* ]]> */
-</script>
-</body>
+	</div>
+	
+	</body>
 </html>

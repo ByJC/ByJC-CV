@@ -1,6 +1,6 @@
 #ByJC-CV
 
-Here is my CV is JSON Format build with the [JSON Resume](https://jsonresume.org)
+Here is my CV in JSON Format build with the [JSON Resume](https://jsonresume.org)
 you can find a demo [here](http://registry.jsonresume.org/ByJC)
 
 # resume-cli
