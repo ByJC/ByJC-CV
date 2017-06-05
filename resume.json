@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Jean-Charles FAUVIN",
-    "label": "Developer front end",
+    "label": "Developer Front End - Scrum Master Certified",
     "picture": "https://avatars2.githubusercontent.com/u/11909355?v=3&s=460",
     "email": "jeancharles.fauvin@gmail.com",
     "phone": "06-88-89-54-09",
@@ -134,12 +134,15 @@
       "name": "Web Development",
       "level": "Experienced",
       "keywords": [
+        "Angular", 
+        "VueJS",
+        "Angular-cli",
+        "Ionic",
         "AngularJS",
         "HTML5",
         "CSS3 (SASS/LESS)",
-        "Jquery",
+        "webpack",
         "Javascript",
-        "Grunt / Gulp",
         "Cordova / Phonegap",
         "Continious Integration",
         "API Rest",
