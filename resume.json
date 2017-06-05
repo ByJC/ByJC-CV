@@ -6,11 +6,11 @@
     "email": "jeancharles.fauvin@gmail.com",
     "phone": "06-88-89-54-09",
     "website": "",
-    "summary": "Hello, my name is Jean-Charles and I am currently looking for a job in Paris. During the last 2 years, I specialized in the realisation of web and mobiles applications using the web's standards : HTML / CSS / JS.",
+    "summary": "Hello, My name is Jean-Charles and I'm a front-end developer creating web and mobile applications based on Angular and Ionic Framework. I also like developing my own projects open-source and contributing to javascripts projects. Currently I think progressive web apps are trending. Certified Scrum Master since March 2017 / Coach Agile ",
     "location": {
-      "address": "8 Rue Saint-Léon",
-      "postalCode": "31400",
-      "city": "Toulouse",
+      "address": "58 Rue Charles Lorilleux",
+      "postalCode": "92800",
+      "city": "Puteaux",
       "countryCode": "FR",
       "region": ""
     },
@@ -28,12 +28,23 @@
     ]
   },
   "work": [
+     {
+      "company": "Powerspace",
+      "position": "Developer Front End - Scrum Master ",
+      "website": "http://www.powerspace.com/",
+      "startDate": "2015-08-04",
+      "endDate": "2017-06-04",
+      "summary": "Powerspace is a company doing native advertising in email and web. As a Front-end Developer I participate to the development of a new web platform based on angularJS, webpack and ES2015 which allow the user to see reports, dashboards, listing of entities.",
+      "highlights": [
+        "Languages : AngularJS 1.5 (ES6), NPM (as runner), Webpack (as Builder), Karma (as test runner), Mocha/chai œ Protractor/Cucumber for testing (units and E2E), Jenkins for the continious integration, Angular Material."
+      ]
+    },
     {
       "company": "Astek SO",
       "position": "Developer Front End ",
       "website": "http://www.groupeastek.com/",
       "startDate": "2014-01-06",
-      "endDate": "2015-06-15",
+      "endDate": "2015-07-31",
       "summary": "Astek is a software and computing services company and my current employer. I worked for two clients : Thales Avionics and LivingObjects",
       "highlights": [
         "Thales Avionics : Creating severals mobiles applications with Cordova and AngularJS",
