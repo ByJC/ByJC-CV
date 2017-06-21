@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jean-Charles FAUVIN",
-    "label": "Developer Front End - Scrum Master Certified",
+    "label": "Front End Developer - Scrum Master Certified",
     "picture": "https://avatars2.githubusercontent.com/u/11909355?v=3&s=460",
     "email": "jeancharles.fauvin@gmail.com",
     "phone": "06-88-89-54-09",
     "website": "",
-    "summary": "Hello, My name is Jean-Charles and I'm a front-end developer creating web and mobile applications based on Angular and Ionic Framework. I also like developing my own projects open-source and contributing to javascripts projects. Currently I think progressive web apps are trending. Certified Scrum Master since March 2017 / Coach Agile ",
+    "summary": "Hello, My name is Jean-Charles and I'm a front-end developer creating web and mobile applications based on Angular and Ionic Framework. I also like to develop my own projects open-source and contributing to javascript projects.\n Currently, I think progressive web apps are trendy.\n Certified Scrum Master since March 2017 / Coach Agile ",
     "location": {
       "address": "58 Rue Charles Lorilleux",
       "postalCode": "92800",
@@ -30,45 +30,45 @@
   "work": [
      {
       "company": "Powerspace",
-      "position": "Developer Front End - Scrum Master ",
+      "position": "Front End Developer - Scrum Master ",
       "website": "http://www.powerspace.com/",
       "startDate": "2015-08-04",
       "endDate": "2017-06-04",
-      "summary": "Powerspace is a company doing native advertising in email and web. As a Front-end Developer I participate to the development of a new web platform based on angularJS, webpack and ES2015 which allow the user to see reports, dashboards, listing of entities.",
+      "summary": "Powerspace is a native advertising company, displaying ads in email, web and mobile app and my current employer. As a Front-end Developer I developed a new web platform based on angularJS, webpack and ES2015 which allows users to create advertising campaigns and follow KPIs through dashboards and listings.",
       "highlights": [
-        "Languages : AngularJS 1.5 (ES6), NPM (as runner), Webpack (as Builder), Karma (as test runner), Mocha/chai œ Protractor/Cucumber for testing (units and E2E), Jenkins for the continious integration, Angular Material."
+        "Languages : AngularJS 1.6 (ES6), NPM (as runner), Webpack (as Builder), Karma (as test runner), Mocha/chai œ Protractor/Cucumber for testing (units and E2E), Jenkins and Rundeck for the continious integration, Angular Material."
       ]
     },
     {
       "company": "Astek SO",
-      "position": "Developer Front End ",
+      "position": "Front End Developer",
       "website": "http://www.groupeastek.com/",
       "startDate": "2014-01-06",
       "endDate": "2015-07-31",
-      "summary": "Astek is a software and computing services company and my current employer. I worked for two clients : Thales Avionics and LivingObjects",
+      "summary": "Astek is a software and computing services company. I worked for two clients : Thales Avionics and LivingObjects",
       "highlights": [
-        "Thales Avionics : Creating severals mobiles applications with Cordova and AngularJS",
-        "Living Objects : Creating a platform to analyse the network performance with AngularJS."
+        "Thales Avionics : I created severals mobile applications with Cordova and AngularJS",
+        "Living Objects : I created a platform to analyse the network performance with AngularJS."
       ]
     },
     {
       "company": "Living Objects",
-      "position": "Developer Front End",
+      "position": "Front End Developer",
       "website": "http://www.livingobjects.com/",
       "startDate": "2015-03-03",
       "endDate": "2015-06-15",
-      "summary": "Creating a Network Managment System , create Charts and tools to analyse all the data and make a differenciator.The client side use AngularJS with API Rest",
+      "summary": "I Created a Network Management System with Charts and tools to analyse all the data the company had.The client side used AngularJS with API Rest",
       "highlights": [
         "Languages : AngularJS, Flex, SASS, Material Design, D3.js, Highcharts.js, Gulp, webpack, docker, Jenkins for the continious integration."
       ]
     },
     {
       "company": "Thales Avionics ",
-      "position": "Developer Front End ",
+      "position": "Front End Developer",
       "website": "https://www.thalesgroup.com/fr",
       "startDate": "2014-02-03",
       "endDate": "2015-02-15",
-      "summary": "Using HTML, CSS, JS to generate Mobiles applications for Android , iOS, and Windows 8.1.",
+      "summary": "I developed in HTML, CSS and JS to generate mobile applications for Android , iOS, and Windows 8.1.",
       "highlights": [
         "ePOTS : Shutter PITO detection probes. Creation of the interface responsive to process and analyze the status of the probe : Android target. Using angularjs , Grunt , Bower, BootStrap , Cordova .",
         "eLogbook : Booklet of usindigital aircraft flight , HMI responsive to track the route of the aircraft and its crew members . Android and W8 target. Using: angularjs , Grunt , Bower, Bootstrap , Cordova , WS REST",
@@ -81,7 +81,7 @@
       "website": "http://www.lagoon-soft.com/",
       "startDate": "2013-03-04",
       "endDate": "2013-09-05",
-      "summary": "Creating & Developping an advertising platform which delivers video then integrate the platform on various online video games.",
+      "summary": "I created and developed an advertising platform which delivers video then integrate the platform on various online video games.",
       "highlights": [
         "languages : PHP, jQuery, MySQL, HTML, CSS, Flash"
       ]
@@ -92,7 +92,7 @@
       "website": "http://www.optimumcit.com/",
       "startDate": "2012-06-05",
       "endDate": "2012-09-31",
-      "summary": "Upgrading & Developping an ERP (Entreprise Resource Planning) for opticians.",
+      "summary": "I upgraded and developed an ERP (Entreprise Resource Planning) for opticians.",
       "highlights": [
         "languages : Basic Object language and Access 2010"
       ]
@@ -103,7 +103,7 @@
       "website": "https://www.imaginecup.com/",
       "startDate": "2011-09-03",
       "endDate": "2012-05-24",
-      "summary": "Developing a software and a mobile application that help the user to choose the right medication according to their symptoms for the Microsoft's Competition..",
+      "summary": "I developed a software and a mobile application that help the user to choose the right medication according to their symptoms for the Microsoft's Competition..",
       "highlights": [
         "Languages :  C#, XAML."
       ]
@@ -158,7 +158,8 @@
         "Brackets",
         "Docker",
         "Jenkins",
-        "Webpack",
+        "rundeck",
+        "Webpack 1&2 (have to try the third)",
         "GIT",
         "SVN",
         "Linux",
